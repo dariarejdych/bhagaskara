@@ -526,19 +526,31 @@ section {
   background-color: #fff; }
 
 .slider {
-  display: flex; }
+  display: flex;
+  height: 440px; }
 
 .people {
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 0 25px;
+  width: 30%; }
   .people h1 {
-    text-align: center; }
+    text-align: center;
+    font-size: 26px;
+    color: #666; }
   .people p {
     font-weight: 400;
     font-size: 18px;
-    color: #666;
+    color: #B6B6B6;
     text-align: center; }
   .people img {
     justify-content: space-between; }
+
+.numbers {
+  background-color: #fff;
+  display: flex; }
+  .numbers li {
+    list-style-type: none;
+    flex-direction: column; }
 
 .container {
   margin-left: auto;

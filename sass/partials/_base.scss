@@ -123,11 +123,11 @@ section {
     background-position: center;
     background-size: cover;
     div {
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 .h1-txt {
@@ -137,33 +137,46 @@ section {
     color: $base-font-color;
 }
 .team-foto {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  background-image: url("../images/team5.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("../images/team5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .our-team {
-  background-color: $base-font-color;
+    background-color: $base-font-color;
 }
 .slider {
-  display: flex;
+    display: flex;
+    height: 440px;
 }
 .people {
-  // display: flex;
-  flex-direction: column;
-  h1 {
-    text-align: center;
-  }
-  p {
-    font-weight: 400;
-    font-size: 18px;
-    color:$font-color-darker;
-    text-align: center;
-  }
-  img {
-    justify-content: space-between;
+    // display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+    width: 30%;
+    h1 {
+        text-align: center;
+        font-size: 26px;
+        color: $font-color-darker;
+    }
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        color: $font-color-light;
+        text-align: center;
+    }
+    img {
+        justify-content: space-between;
+    }
+}
+.numbers {
+  background-color: $base-font-color;
+  display: flex;
+  li {
+    list-style-type: none;
+    flex-direction: column;
   }
 }
