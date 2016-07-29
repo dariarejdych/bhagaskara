@@ -190,8 +190,8 @@
     font-weight: 300;
 }
 .title-wrap {
-  text-align: center;
-  padding-top: 100px;
+    text-align: center;
+    padding-top: 100px;
 }
 .title:after {
     content: "";
@@ -216,34 +216,42 @@
     right: 0;
 }
 strong {
-  color: #9F449B;
-  font-style: normal;
+    color: #9F449B;
+    font-style: normal;
 }
 .icon-one {
-  padding-top: 100px;
+    padding-top: 100px;
 }
-.prevPicture {
-background-image: url("../images/leftarrowhr.png");
-background-color: $base-font-color;
-border: none;
-width: 65px;
-height: 70px;
-background-repeat: no-repeat;
+.prev_picture {
+    background-image: url("../images/leftarrowhr.png");
+    width: 65px;
+    height: 70px;
+    background-repeat: no-repeat;
+    &hover {
+        background-image: url("../images/left.png");
+        width: 65px;
+        height: 70px;
+        background-repeat: no-repeat;
+    }
 }
-.nextPicture {
-background-image: url("../images/rightarrowhr.png");
-background-color: $base-font-color;
-width: 65px;
-height: 70px;
-border: none;
+.next_picture {
+    background-image: url("../images/rightarrowhr.png");
+    width: 65px;
+    height: 70px;
+    background-repeat: no-repeat;
+    &hover {
+        background-image: url("../images/right.png");
+        width: 65px;
+        height: 70px;
+        background-repeat: no-repeat;
+    }
 }
-
-.slider .visible{
+.slider .visible {
     display: inline-block;
 }
 .swipe {
-  button {
-    display: inline-block;
-    padding: 10px 10px;
-  }
+    div {
+        display: inline-block;
+        padding: 10px;
+    }
 }

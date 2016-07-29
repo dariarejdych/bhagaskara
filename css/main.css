@@ -525,7 +525,7 @@ section {
 .our-team {
   background-color: #fff; }
 
-.slider {
+.autoplay {
   display: flex;
   height: 440px; }
 
@@ -758,26 +758,33 @@ strong {
 .icon-one {
   padding-top: 100px; }
 
-.prevPicture {
+.prev_picture {
   background-image: url("../images/leftarrowhr.png");
-  background-color: #fff;
-  border: none;
   width: 65px;
   height: 70px;
   background-repeat: no-repeat; }
+  .prev_picturehover {
+    background-image: url("../images/left.png");
+    width: 65px;
+    height: 70px;
+    background-repeat: no-repeat; }
 
-.nextPicture {
+.next_picture {
   background-image: url("../images/rightarrowhr.png");
-  background-color: #fff;
   width: 65px;
   height: 70px;
-  border: none; }
+  background-repeat: no-repeat; }
+  .next_picturehover {
+    background-image: url("../images/right.png");
+    width: 65px;
+    height: 70px;
+    background-repeat: no-repeat; }
 
 .slider .visible {
   display: inline-block; }
 
-.swipe button {
+.swipe div {
   display: inline-block;
-  padding: 10px 10px; }
+  padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
