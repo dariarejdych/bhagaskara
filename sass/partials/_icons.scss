@@ -227,7 +227,7 @@ strong {
     width: 65px;
     height: 70px;
     background-repeat: no-repeat;
-    &hover {
+    &:hover {
         background-image: url("../images/left.png");
         width: 65px;
         height: 70px;
@@ -239,7 +239,7 @@ strong {
     width: 65px;
     height: 70px;
     background-repeat: no-repeat;
-    &hover {
+    &:hover {
         background-image: url("../images/right.png");
         width: 65px;
         height: 70px;
@@ -250,8 +250,10 @@ strong {
     display: inline-block;
 }
 .swipe {
+  display: flex;
+  justify-content: center;
     div {
-        display: inline-block;
         padding: 10px;
+        margin: 30px 0;
     }
 }
