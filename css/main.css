@@ -513,15 +513,6 @@ section {
   text-align: center;
   color: #fff; }
 
-.team-foto {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  background-image: url("../images/team5.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-
 .our-team {
   background-color: #fff; }
 
@@ -530,6 +521,7 @@ section {
   height: 440px; }
 
 .people {
+  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -544,9 +536,25 @@ section {
     font-size: 18px;
     color: #B6B6B6;
     text-align: center; }
-  .people img {
-    display: inline-block;
-    justify-content: space-between; }
+  .people .social-icon {
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex; }
+    .people .social-icon img {
+      justify-content: center; }
+  .people .img-left {
+    float: left; }
+  .people .img-right {
+    float: right; }
+  .people .team-foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("../images/team5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto; }
 
 .numbers {
   background-color: #fff;

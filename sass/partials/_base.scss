@@ -136,15 +136,6 @@ section {
     text-align: center;
     color: $base-font-color;
 }
-.team-foto {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-image: url("../images/team5.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 .our-team {
     background-color: $base-font-color;
 }
@@ -153,6 +144,7 @@ section {
     height: 440px;
 }
 .people {
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,16 +161,42 @@ section {
         color: $font-color-light;
         text-align: center;
     }
-    img {
-      display: inline-block;
-      justify-content: space-between;
+    .social-icon {
+        border: 1px solid red;
+        margin: 0 auto;
+        display: flex;
+        img {
+          justify-content: center;
+
+        }
     }
+    .img-left {
+        float: left;
+    }
+    .img-right {
+        float: right;
+    }
+    .team-foto {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-image: url("../images/team5.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+  // img {
+  //   display: inline-block;
+  //   float: left;
+  //   margin: 0 auto;
+  // }
 }
 .numbers {
-  background-color: $base-font-color;
-  display: flex;
-  li {
-    list-style-type: none;
-    flex-direction: column;
-  }
+    background-color: $base-font-color;
+    display: flex;
+    li {
+        list-style-type: none;
+        flex-direction: column;
+    }
 }
