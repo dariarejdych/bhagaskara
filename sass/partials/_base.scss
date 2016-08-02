@@ -1,0 +1,202 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.background_img {
+    background-image: url("../images/bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    box-sizing: border-box;
+    h1 {
+        padding-top: 40px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    h2 {
+        color: $base-font-color;
+        text-align: center;
+        font-weight: 300;
+        font-size: 38px;
+    }
+    p {
+        color: HSL(120, 3%, 93%);
+        text-align: center;
+        font-weight: 300;
+        font-size: 21px;
+    }
+}
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+.menu2 {
+    height: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: light;
+    font-size: $font-size-small;
+    ul {
+        display: flex;
+        li {
+            list-style-type: none;
+            padding: 0 10px;
+            a {
+                text-decoration: none;
+                color: $font-color-darker;
+                &:hover {
+                    color: #9F449B;
+                }
+            }
+        }
+    }
+}
+section {
+    background-color: $background-color-darker;
+}
+.first-section {
+    display: flex;
+    height: 790px;
+    padding-top: 170px;
+    h3 {
+        color: $font-color-darker;
+        padding-top: 50px;
+        text-align: center;
+    }
+    p {
+        color: $font-color-darker;
+        padding-top: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+    // @media screen and (max-width: 800px) {
+    //   flex-wrap: wrap;
+    // }
+}
+.second_section {
+    height: 1026px;
+    background-color: $base-font-color;
+    display: grid;
+}
+.devices {
+    flex: 1 1 50%;
+    justify-content: flex-start;
+}
+.txt-and-btn {
+    flex-direction: column;
+    padding-left: 30px;
+    p {
+        color: $font-color-darker;
+        line-height: 35px;
+    }
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: $font-color;
+    color: $base-font-color;
+    box-shadow: 0 5px $shadow-color;
+    margin-top: 90px;
+    padding: 1em 3em;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: $base-font-color;
+    border: 1px solid $shadow-color;
+    color: $shadow-color;
+    box-shadow: 0 -5px $shadow-color;
+}
+.section-colorbg {
+    background-image: url("../images/quotebg.png");
+    height: 522px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    div {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.h1-txt {
+    font-size: 44px;
+    font-weight: 300;
+    text-align: center;
+    color: $base-font-color;
+}
+.our-team {
+    background-color: $base-font-color;
+}
+.autoplay {
+    display: flex;
+    height: 440px;
+}
+.people {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+    width: 30%;
+    h1 {
+        text-align: center;
+        font-size: 26px;
+        color: $font-color-darker;
+    }
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        color: $font-color-light;
+        text-align: center;
+    }
+    .social-icon {
+        border: 1px solid red;
+        margin: 0 auto;
+        display: flex;
+        img {
+          justify-content: center;
+
+        }
+    }
+    .img-left {
+        float: left;
+    }
+    .img-right {
+        float: right;
+    }
+    .team-foto {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-image: url("../images/team5.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+  // img {
+  //   display: inline-block;
+  //   float: left;
+  //   margin: 0 auto;
+  // }
+}
+.numbers {
+    background-color: $base-font-color;
+    display: flex;
+    li {
+        list-style-type: none;
+        flex-direction: column;
+    }
+}
