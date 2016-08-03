@@ -144,7 +144,7 @@ section {
     height: 440px;
 }
 .people {
-    border: 1px solid red;
+    // border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,15 +161,18 @@ section {
         color: $font-color-light;
         text-align: center;
     }
-    .social-icon {
-        border: 1px solid red;
-        margin: 0 auto;
-        display: flex;
-        img {
-          justify-content: center;
-
-        }
+    img {
+      display: inline-block;
+      margin: 0 auto;
     }
+    // .social-icon {
+    //     // border: 1px solid red;
+    //     margin: 0 auto;
+    //     float: inherit;
+    //     img {
+    //     margin: 0 auto;
+    //     }
+    // }
     .img-left {
         float: left;
     }
@@ -186,12 +189,8 @@ section {
         background-size: cover;
         margin: 0 auto;
     }
-  // img {
-  //   display: inline-block;
-  //   float: left;
-  //   margin: 0 auto;
-  // }
 }
+
 .numbers {
     background-color: $base-font-color;
     display: flex;
@@ -199,4 +198,23 @@ section {
         list-style-type: none;
         flex-direction: column;
     }
+}
+
+.skills {
+  display: flex;
+  table {
+    margin: 0 auto;
+  }
+  td {
+    padding: 5px;
+    text-transform: uppercase;
+  }
+  .number {
+    color:$font-color-darker;
+    text-align: right;
+    margin: 20px 0;
+  }
+  .progress {
+    text-align: center;
+  }
 }

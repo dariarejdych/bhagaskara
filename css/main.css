@@ -521,7 +521,6 @@ section {
   height: 440px; }
 
 .people {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -536,12 +535,9 @@ section {
     font-size: 18px;
     color: #B6B6B6;
     text-align: center; }
-  .people .social-icon {
-    border: 1px solid red;
-    margin: 0 auto;
-    display: flex; }
-    .people .social-icon img {
-      justify-content: center; }
+  .people img {
+    display: inline-block;
+    margin: 0 auto; }
   .people .img-left {
     float: left; }
   .people .img-right {
@@ -562,6 +558,20 @@ section {
   .numbers li {
     list-style-type: none;
     flex-direction: column; }
+
+.skills {
+  display: flex; }
+  .skills table {
+    margin: 0 auto; }
+  .skills td {
+    padding: 5px;
+    text-transform: uppercase; }
+  .skills .number {
+    color: #666;
+    text-align: right;
+    margin: 20px 0; }
+  .skills .progress {
+    text-align: center; }
 
 .container {
   margin-left: auto;
