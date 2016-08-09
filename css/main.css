@@ -584,7 +584,6 @@ section {
     color: #666; }
 
 .avatar {
-  background-image: url("../images/t1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
@@ -603,6 +602,27 @@ section {
   text-transform: uppercase;
   font-size: 20px;
   color: #777777; }
+
+.slider2 {
+  margin: 30px 0; }
+
+.t1 {
+  background-image: url("../images/t1.jpg"); }
+
+.t2 {
+  background-image: url("../images/t2.jpg"); }
+
+.t3 {
+  background-image: url("../images/t3.jpg"); }
+
+.t4 {
+  background-image: url("../images/t4.jpg"); }
+
+.t5 {
+  background-image: url("../images/t5.jpg"); }
+
+.t6 {
+  background-image: url("../images/t6.jpg"); }
 
 .container {
   margin-left: auto;
