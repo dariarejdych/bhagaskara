@@ -291,10 +291,38 @@ section {
     border: 1px solid black;
     font-weight: 300;
     background-color: white;
-    margin: 50px 10px;;
+    margin: 50px 10px;
     &:hover {
         border: none;
         background-color: $font-color;
         color: white;
     }
+}
+.all {
+  width: 360px;
+  height: 402px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.i1 {
+  background-image: url("../images/t1.jpg");
+}
+.i2 {
+  background-image: url("../images/t2.jpg");
+}
+.i3 {
+  background-image: url("../images/t3.jpg");
+}
+.i4 {
+  background-image: url("../images/t4.jpg");
+}
+.i5 {
+  background-image: url("../images/t5.jpg");
+}
+.i6 {
+  background-image: url("../images/t6.jpg");
+}
+.picture {
+  display: flex;
+  flex-wrap: wrap;
 }
