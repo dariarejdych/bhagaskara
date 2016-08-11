@@ -679,10 +679,13 @@ section {
   display: flex;
   flex-wrap: wrap; }
 
+.section-form {
+  display: flex; }
+
 .contact-details {
   display: flex;
   flex-direction: column;
-  margin-top: 100px; }
+  margin: 100px 0 0 20px; }
   .contact-details input,
   .contact-details textarea {
     width: 400px;
@@ -694,10 +697,9 @@ section {
     text-align: center; }
 
 .more-info {
-  display: flex;
-  flex-direction: column; }
-  .more-info p {
-    width: 800px; }
+  margin-top: 100px;
+  text-align: left;
+  width: 800px; }
 
 footer {
   display: flex;
